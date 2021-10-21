@@ -1,0 +1,52 @@
+section.topRightIcon {
+    display: inline-block;
+    float: right;
+}
+
+.leftSide {
+    float: left;
+    width: 580px;
+}
+
+.rssPadding {
+    padding-left: 10px;
+}
+
+.mainLogo {
+    float: left;
+}
+
+.title1 {
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+    margin: 0;
+}
+
+.title2 {
+    color: slategray;
+    font-size: 15px;
+    margin: 0px;
+    width: 400px;
+
+}
+
+.instructions {
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.chocoPizzaTitle {
+    margin: 0px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.printyPrint {
+    float: right;
+}
+
+.mainChoc {
+    margin-top: 30px;
+}
