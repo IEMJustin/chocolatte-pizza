@@ -1,6 +1,20 @@
+body {
+    max-width: 900px;
+}
+
+header {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 10px;
+    border-style:double;
+    height: 90px;
+}
+
 section.topRightIcon {
     display: inline-block;
-    float: right;
+    margin-left: 45px;
+    
 }
 
 .leftSide {
@@ -48,5 +62,92 @@ section.topRightIcon {
 }
 
 .mainChoc {
+    margin-top: 15px;
+}
+
+.ingredients {
+    background-image:url(img/list-bg.png);
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+
+.userBio {
+    display: inline-block;
+    width: 900px;
+}
+
+.vanessa {
+    display: absolute;
+    float: left;
+    height: 100px;
+}
+
+button {
     margin-top: 30px;
+    float: right;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style:none;
+    background-color: rgb(221, 116, 68);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.userName {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.userInfo {
+    position: relative;
+    width: 600px;
+    margin-top: 0px;
+}
+
+footer {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.list1 {
+    color: rgba(90, 78, 56, 0.809);
+}
+
+.list2 {
+    
+    position: relative;
+    float: right;
+    width: 450px;
+    color: rgba(90, 78, 56, 0.809);
+}
+
+ul {
+    font-size: 29px;
+    display: inline-block;
+}
+
+.postDate {
+    margin: 0px;
+    color: slategrey;
+}
+
+.firstParagraph {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.secondParagraph {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.thirdParagraph {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
