@@ -8,6 +8,7 @@ header {
     border-right: 0px;
     border-bottom: 10px;
     border-style:double;
+    border-color: lightgray;
     height: 90px;
 }
 
@@ -38,7 +39,7 @@ section.topRightIcon {
 }
 
 .title2 {
-    color: slategray;
+    color: lightgray;
     font-size: 15px;
     margin: 0px;
     width: 400px;
@@ -108,7 +109,14 @@ button {
 }
 
 footer {
+    margin: 10px;
     text-align: center;
+    border-top: 10px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style:double;
+    border-color: lightgrey;
 }
 
 li {
